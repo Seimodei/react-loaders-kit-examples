@@ -53,7 +53,7 @@ const JellyBounceLoader = (props: JellyBounceProps) => {
 
     const Jump = keyframes`
         40% {
-            transform: ${`translateY(${dst * 2}px) scale(1.3)`};
+            transform: ${`translate3d(0, ${dst * 2}px, 0) scale(1.3)`};
             opacity: .9;
         }
         40% {
@@ -77,7 +77,7 @@ const JellyBounceLoader = (props: JellyBounceProps) => {
             opacity: .15;
             rx: ${dst}px;
             ry: ${dst - 7}px;
-            transform: ${`translateY(${dst - 10}px) scale(1.3)`};
+            transform: ${`translate3d(0, ${dst - 10}px, 0) scale(1.3)`};
         }
     `;
 

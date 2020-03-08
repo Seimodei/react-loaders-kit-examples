@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-loaders-kit-examples/static/css/main.f684803a.chunk.css",
-    "main.js": "/react-loaders-kit-examples/static/js/main.3e7c8294.chunk.js",
-    "main.js.map": "/react-loaders-kit-examples/static/js/main.3e7c8294.chunk.js.map",
+    "main.js": "/react-loaders-kit-examples/static/js/main.89a0819d.chunk.js",
+    "main.js.map": "/react-loaders-kit-examples/static/js/main.89a0819d.chunk.js.map",
     "runtime-main.js": "/react-loaders-kit-examples/static/js/runtime-main.9fa233be.js",
     "runtime-main.js.map": "/react-loaders-kit-examples/static/js/runtime-main.9fa233be.js.map",
     "static/js/2.60be2429.chunk.js": "/react-loaders-kit-examples/static/js/2.60be2429.chunk.js",
     "static/js/2.60be2429.chunk.js.map": "/react-loaders-kit-examples/static/js/2.60be2429.chunk.js.map",
     "index.html": "/react-loaders-kit-examples/index.html",
-    "precache-manifest.c3207019971665d9ac56250fbf2d06de.js": "/react-loaders-kit-examples/precache-manifest.c3207019971665d9ac56250fbf2d06de.js",
+    "precache-manifest.617b9c0dc0959ccf5413ec45f5caea75.js": "/react-loaders-kit-examples/precache-manifest.617b9c0dc0959ccf5413ec45f5caea75.js",
     "service-worker.js": "/react-loaders-kit-examples/service-worker.js",
     "static/css/main.f684803a.chunk.css.map": "/react-loaders-kit-examples/static/css/main.f684803a.chunk.css.map",
     "static/js/2.60be2429.chunk.js.LICENSE.txt": "/react-loaders-kit-examples/static/js/2.60be2429.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.9fa233be.js",
     "static/js/2.60be2429.chunk.js",
     "static/css/main.f684803a.chunk.css",
-    "static/js/main.3e7c8294.chunk.js"
+    "static/js/main.89a0819d.chunk.js"
   ]
 }

@@ -5,7 +5,7 @@ import React from 'react';
 import  styled  from '@emotion/styled';
 import { keyframes, css, jsx } from '@emotion/core';
 
-import { Colors, pauseAnim, loaderDuration } from './utilities';
+import { Colors, pauseAnim } from './utilities';
 import LoaderBox from './wrapper';
 
 

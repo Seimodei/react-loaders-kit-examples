@@ -36,31 +36,19 @@ const KissyBallsLoader = (props: KissyBallsProps) => {
 
     const Bounce1 = keyframes`
         0% {
-            transform: translatex(0px);
-        } 
-        65% {
-            height: ${size ? size*0.33 : dProps.size*0.33}px;
-            width: ${size ? size*0.33 : dProps.size*0.33}px;
+            transform: translate3d(0, 0, 0);
         }
         100% {
-            height: ${size ? size*0.41 : dProps.size*0.41}px;
-            width: ${size ? size*0.22 : dProps.size*0.22}px;
-            transform: translatex(${size ? size*0.25 : dProps.size*0.25}px);
+            transform: translate3d(${size ? size*0.25 : dProps.size*0.25}px, 0, 0) scale(0.9, 2);
         }
     `;
 
     const Bounce2 = keyframes`
         0% {
-            transform: translatex(0px);
-        } 
-        65% {
-            height: ${size ? size*0.33 : dProps.size*0.33}px;
-            width: ${size ? size*0.33 : dProps.size*0.33}px;
+            transform: translate3d(0, 0, 0);
         }
         100% {
-            height: ${size ? size*0.41 : dProps.size*0.41}px;
-            width: ${size ? size*0.22 : dProps.size*0.22}px;
-            transform: translatex(-${size ? size*0.25 : dProps.size*0.25}px);
+            transform: translate3d(-${size ? size*0.25 : dProps.size*0.25}px, 0, 0) scale(0.9, 2);
         }
     `;
 

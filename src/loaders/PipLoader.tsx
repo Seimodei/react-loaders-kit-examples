@@ -20,7 +20,7 @@ export interface PipProps {
 
 const dProps = {
     loading: true,
-    size: 11,
+    size: 15,
     duration: .8,
     color: Colors.Purple
 }
@@ -44,11 +44,11 @@ const PipLoader = (props: PipProps) => {
 
     const PipAnim = keyframes`
         0%, 15%, 85%, 100% {
-            top: ${size ? `${size*0.75}px` : `${dProps.size*0.75}px`};
+            transform: translateY(${size ? `${size*0.0001}px` : `${dProps.size*0.0001}px`});
             box-shadow: 0 0 0 1px ${color ? color : dProps.color};
         }
         45%, 55% {
-            top: 0px;
+            transform: translateY(0px);
             box-shadow: 0 0 0 ${size ? `${size*0.42}px` : `${dProps.size*0.42}px`} ${color ? color : dProps.color};
         }
     `;

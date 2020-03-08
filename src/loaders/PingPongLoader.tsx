@@ -3,7 +3,7 @@ import React from 'react';
 import  styled  from '@emotion/styled';
 import { keyframes } from '@emotion/core';
 
-import { Colors, pauseAnim, loaderDuration } from './utilities';
+import { Colors, pauseAnim } from './utilities';
 import LoaderBox from './wrapper';
 
 
@@ -36,17 +36,10 @@ const PingPongLoader = (props: PingPongProps) => {
 
     const Bounce = keyframes`
         0% {
-            height: ${size ? size*0.13 : dProps.size*0.13}px;
-            transform: translateY(0px);
+            transform: translate3d(0, ${size ? size*0.02 : dProps.size*0.02}px, 0) scale(0.9, 1.1);
         }
-        75%{
-            height: ${size ? size*0.11 : dProps.size*0.11}px;
-            width: ${size ? size*0.11 : dProps.size*0.11}px;
-        } 
         100% {
-            height: ${size ? size*0.055 : dProps.size*0.055}px;
-            width: ${size ? size*0.13 : dProps.size*0.13}px;
-            transform: translateY(${size ? size*0.41 : dProps.size*0.41}px);
+            transform: translate3d(0, ${size ? size*0.39 : dProps.size*0.39}px, 0) scale(1.2, 0.85);
         }
     `;
 

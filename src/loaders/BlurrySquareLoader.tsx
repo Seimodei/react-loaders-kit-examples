@@ -49,7 +49,7 @@ const BlurrySquareLoader = (props: BlurrySquareProps) => {
     const Blur = keyframes`
         50% {
             filter: blur(5px);
-            transform: translateY(-10px);
+            transform: translate3d(0, -10px, 0);
             opacity: 0.3;
         }
     `;
