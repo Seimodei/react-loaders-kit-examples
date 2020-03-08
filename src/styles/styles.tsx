@@ -23,7 +23,7 @@ export const AppWrapper = styled('div')`
 
     ${mq[0]} {
         width: 100%;
-        padding: 0 .55em;
+        padding: 0 .85em;
     }
 `;
 
@@ -40,6 +40,10 @@ export const Title = styled('div')`
         ${mq[1]} {
             font-size: 3em;
         }
+
+        ${mq[2]} {
+            font-size: 2em;
+        }
     }
 
     p {
@@ -47,6 +51,10 @@ export const Title = styled('div')`
         font-weight: 500;
         font-size: 1.01em;
         margin-top: .5em;
+
+        ${mq[2]} {
+            font-size: 1em;
+        }
     }
 `;
 
@@ -59,6 +67,7 @@ export const ButtonWrapper = styled('div')`
     ${mq[2]} {
         flex-direction: column;
         align-items: center;
+        margin-top: 1.8em;
     }
 `;
 
@@ -138,6 +147,7 @@ export const LoadersWrapper = styled('div')`
 
     ${mq[2]} {
         grid-template-columns: 1fr;
+        margin-top: 3em;
     }
 `;
 
@@ -211,6 +221,12 @@ export const FooterInfo = styled('footer')`
     font-family: 'IBM Plex Serif', serif;
     text-align: center;
     margin-bottom: 5em;
+
+    ${mq[2]} {
+        font-size: .85em;
+        padding: 0 .85em;
+        margin-bottom: 2.5em;
+    }
 `;
 
 export const Footer = styled('footer')`

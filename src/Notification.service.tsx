@@ -44,7 +44,7 @@ const CreateNotification = (message: string, openState: boolean) => {
     const Notification = styled('div')`
         position: fixed;
         transform: translateY(-5.5em);
-        width: 25em;
+        width: 15em;
         height: 4em;
         font-size: 1.5em;
         display: flex;
@@ -54,7 +54,7 @@ const CreateNotification = (message: string, openState: boolean) => {
         background-color: #ffffff;
         font-weight: 500;
         font-family: 'IBM Plex Serif', serif;
-        box-shadow: 0px 0px 5px 5px ${lightenDarkenColor(Colors.Main, 190)};
+        box-shadow: 0px 0px 5px 5px ${lightenDarkenColor(Colors.Purple, 190)};
         animation: ${Anim} .4s ease-in-out forwards;
         animation-play-state: ${open ? 'running' : 'paused'};
         z-index: 100;
