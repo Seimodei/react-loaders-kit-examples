@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaa771431f3bdd8c5c2952edd441bf90",
+    "revision": "a9c492b2f16fec538ba1c8794bf82d9d",
     "url": "/react-loaders-kit-examples/index.html"
   },
   {
-    "revision": "7a9916773423762079f3",
+    "revision": "da4d97bb9d6f634ba142",
     "url": "/react-loaders-kit-examples/static/css/main.f684803a.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-loaders-kit-examples/static/js/2.60be2429.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a9916773423762079f3",
-    "url": "/react-loaders-kit-examples/static/js/main.38a70c87.chunk.js"
+    "revision": "da4d97bb9d6f634ba142",
+    "url": "/react-loaders-kit-examples/static/js/main.3e7c8294.chunk.js"
   },
   {
     "revision": "df134da9c0d24acc93bd",
     "url": "/react-loaders-kit-examples/static/js/runtime-main.9fa233be.js"
   },
   {
-    "revision": "787d72ec568d5122fdda30eb58cc96c4",
-    "url": "/react-loaders-kit-examples/static/media/copied.787d72ec.svg"
+    "revision": "07f513633ae0484df5ab04d393e44ac8",
+    "url": "/react-loaders-kit-examples/static/media/copied.07f51363.svg"
   },
   {
     "revision": "4937c4a61985d75bd3cf03ee4034c067",
