@@ -48,7 +48,7 @@ const App = () => {
           <p>Simple yet robust and highly customizable loading kit for designers & developers</p>
         </Styles.Title>
         <Styles.ButtonWrapper>
-          <Styles.GithubButton href="">github</Styles.GithubButton>
+          <Styles.GithubButton href="https://github.com/Seimodei/react-loaders-kit">github</Styles.GithubButton>
           {Styles.NpmButton(npmBtnAction)}
         </Styles.ButtonWrapper>
         <Styles.LoadersWrapper>
